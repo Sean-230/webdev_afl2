@@ -399,8 +399,8 @@
     <section class="featured-section">
         <div class="container">
             <div class="section-title">
-                <h2>Featured Products</h2>
-                <p>Check out our best selling products</p>
+                <h2>Produk Pilihan</h2>
+                <p>Periksa produk terlaris kami</p>
             </div>
             <div class="products-grid">
                 <div class="product-card">
@@ -441,7 +441,7 @@
                         <img src="{{ asset('images/eskrim.jpg') }}" alt="eskrim">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Ice Cream</div>
+                        <div class="product-category">Es Krim</div>
                         <h3>Es Krim AICE Bucket</h3>
                         
                         <div class="product-price">
@@ -457,7 +457,7 @@
                         <img src="{{ asset('images/bubuk eskrim.jpg') }}" alt="bubuk eskrim">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Bubuk</div>
+                        <div class="product-category">Bubuk Es Krim</div>
                         <h3>Bubuk Eskrim Mr Cool</h3>
                         <div class="product-price">
                             <div>
@@ -486,7 +486,7 @@
 
             <div style="text-align: center; margin-top: 3rem;">
                 <a href="{{ route('products') }}" class="btn btn-primary"
-                    style="background: var(--primary-color); color: white;">View All Products</a>
+                    style="background: var(--primary-color); color: white;">Lihat Semua Produk</a>
             </div>
         </div>
     </section>
