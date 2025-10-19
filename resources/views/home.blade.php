@@ -214,7 +214,7 @@
         }
 
         .product-image {
-            height: 250px;
+            height: 350px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             display: flex;
             align-items: center;
@@ -295,13 +295,6 @@
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--primary-color);
-        }
-
-        .old-price {
-            text-decoration: line-through;
-            color: var(--text-light);
-            font-size: 1rem;
-            margin-left: 0.5rem;
         }
 
         /* Features */
@@ -445,25 +438,16 @@
             </div>
             <div class="products-grid">
                 <div class="product-card">
-                    <span class="product-badge">New</span>
+                    <span class="product-badge">Hot</span>
                     <div class="product-image">
-                        <i class="fas fa-mobile-alt"></i>
+                        <img src="{{ asset('images/cup kertas eskrim 50ml.jpg') }}" alt="Cup Kertas Es Krim 50ml">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Smartphones</div>
-                        <h3>iPhone 15 Pro Max</h3>
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <span>(128)</span>
-                        </div>
+                        <div class="product-category">Cup</div>
+                        <h3>Cup kertas eskrim 50ml</h3>
                         <div class="product-price">
                             <div>
-                                <span class="price">Rp 19.999.000</span>
-                                <span class="old-price">Rp 22.999.000</span>
+                                <span class="price">Rp 12.000</span>
                             </div>
                         </div>
                     </div>
@@ -472,47 +456,31 @@
                 <div class="product-card">
                     <span class="product-badge" style="background: #ef4444;">Hot</span>
                     <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <i class="fas fa-laptop"></i>
+                        <img src="{{ asset('images/cone eskrim.jpg') }}" alt="cone eskrim">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Laptops</div>
-                        <h3>MacBook Pro M3 16"</h3>
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(256)</span>
-                        </div>
+                        <div class="product-category">Cone</div>
+                        <h3>Cone Kerucut Kecil 45-50 pcs Kurir Instan"</h3>
                         <div class="product-price">
                             <div>
-                                <span class="price">Rp 42.999.000</span>
+                                <span class="price">Rp 11.220</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <span class="product-badge" style="background: #10b981;">-20%</span>
+                    <span class="product-badge" style="background: #10b981;">Buy 3 get 1</span>
                     <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <i class="fas fa-headphones"></i>
+                        <img src="{{ asset('images/eskrim.jpg') }}" alt="eskrim">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Audio</div>
-                        <h3>Sony WH-1000XM5</h3>
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <span>(189)</span>
-                        </div>
+                        <div class="product-category">Ice Cream</div>
+                        <h3>Es Krim AICE Bucket</h3>
+                        
                         <div class="product-price">
                             <div>
-                                <span class="price">Rp 4.799.000</span>
-                                <span class="old-price">Rp 5.999.000</span>
+                                <span class="price">Rp 219.980</span>
                             </div>
                         </div>
                     </div>
@@ -520,26 +488,34 @@
 
                 <div class="product-card">
                     <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                        <i class="fas fa-tablet-alt"></i>
+                        <img src="{{ asset('images/bubuk eskrim.jpg') }}" alt="bubuk eskrim">
                     </div>
                     <div class="product-info">
-                        <div class="product-category">Tablets</div>
-                        <h3>iPad Pro 12.9" M2</h3>
-                        <div class="product-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(342)</span>
-                        </div>
+                        <div class="product-category">Bubuk</div>
+                        <h3>Bubuk Eskrim Mr Cool</h3>
                         <div class="product-price">
                             <div>
-                                <span class="price">Rp 18.499.000</span>
+                                <span class="price">Rp 25.900</span>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <img src="{{ asset('images/sendok eskrim.jpg') }}" alt="sendok eskrim">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sendok</div>
+                        <h3>Sendok Eskrim Mr Cool</h3>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">Rp 1.670</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div style="text-align: center; margin-top: 3rem;">
@@ -550,7 +526,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features-section">
+    <!-- <section class="features-section">
         <div class="container">
             <div class="features-grid">
                 <div class="feature-card">
@@ -583,13 +559,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Promo Banner -->
     <div class="container">
         <div class="promo-banner">
             <h2>Special Offer: Up to 50% Off!</h2>
-            <p>Limited time offer on selected electronics</p>
+            <p>Limited time offer on selected product</p>
             <a href="{{ route('products') }}" class="btn" style="background: white; color: #f5576c;">Shop Deals
                 Now</a>
         </div>
