@@ -6,7 +6,7 @@
     <style>
         .page-header {
             background: #ECB686;
-            color: black;
+            color: white;
             padding: 4rem 2rem;
             text-align: center;
         }
