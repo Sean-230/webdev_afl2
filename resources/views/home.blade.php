@@ -383,7 +383,7 @@
                 <p>Nikmati berbagai pilihan es krim favorit dari brand terpercaya, siap menemani harimu dengan rasa terbaik.
                 </p>
                 <div class="hero-buttons">
-                    <a href="{{ route('products') }}" class="btn btn-primary">Belanja Sekarang</a>
+                    <a href="{{ route('products.index') }}" class="btn btn-primary">Belanja Sekarang</a>
                     <a href="{{ route('about') }}" class="btn btn-outline">Tentang Kami</a>
                 </div>
             </div>
@@ -519,7 +519,7 @@
             </div>
 
             <div style="text-align: center; margin-top: 3rem;">
-                <a href="{{ route('products') }}" class="btn btn-primary"
+                <a href="{{ route('products.index') }}" class="btn btn-primary"
                     style="background: var(--primary-color); color: white;">View All Products</a>
             </div>
         </div>
@@ -566,7 +566,7 @@
         <div class="promo-banner">
             <h2>Special Offer: Up to 50% Off!</h2>
             <p>Limited time offer on selected product</p>
-            <a href="{{ route('products') }}" class="btn" style="background: white; color: #f5576c;">Shop Deals
+            <a href="{{ route('products.index') }}" class="btn" style="background: white; color: #f5576c;">Shop Deals
                 Now</a>
         </div>
     </div>

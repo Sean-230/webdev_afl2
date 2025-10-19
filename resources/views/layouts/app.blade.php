@@ -322,14 +322,18 @@
             </div>
 
             <ul class="nav-menu">
-                <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Beranda</a>
+                <li>
+                    <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Beranda</a>
                 </li>
-                <li><a href="{{ route('products') }}"
-                        class="{{ request()->routeIs('products*') ? 'active' : '' }}">Produk</a></li>
-                <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">Tentang</a>
+                <li>
+                    <a href="{{ route('products.index') }}" class="{{ request()->routeIs('products*') ? 'active' : '' }}">Produk</a>
                 </li>
-                <li><a href="{{ route('contact') }}"
-                        class="{{ request()->routeIs('contact') ? 'active' : '' }}">Kontak</a></li>
+                <li>
+                    <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">Tentang</a>
+                </li>
+                <li>
+                    <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Kontak</a>
+                </li>
             </ul>
 
             <div class="nav-icons">

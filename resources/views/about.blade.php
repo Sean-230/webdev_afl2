@@ -31,8 +31,9 @@
 
         .about-image {
             height: 400px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: white;
             border-radius: 16px;
+            border: 2px solid #ECB686;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -213,8 +214,8 @@
     <!-- Page Header -->
     <div class="page-header">
         <div class="container">
-            <h1>About ElectroShop</h1>
-            <p>Your Trusted Electronics Partner Since 2020</p>
+            <h1>Tentang Depo Es Krim</h1>
+            <p>Menjual berbagai jenis kebutuhan es krim</p>
         </div>
     </div>
 
@@ -223,196 +224,29 @@
         <div class="container">
             <div class="about-intro">
                 <div class="about-image">
-                    <i class="fas fa-store"></i>
+                    <img src="{{ asset('images/logo_transparan(1).png') }}" alt="Depo Es Krim Logo">
                 </div>
                 <div class="about-text">
-                    <h2>Who We Are</h2>
-                    <p>ElectroShop is a leading electronics retailer committed to providing premium quality products and
-                        exceptional customer service. Since our establishment in 2020, we have been dedicated to bringing
-                        the latest technology to our customers at competitive prices.</p>
-                    <p>Our mission is to make cutting-edge technology accessible to everyone, whether you're a professional,
-                        student, or tech enthusiast. We carefully curate our product selection to ensure quality,
-                        reliability, and value for money.</p>
-                    <p>With a team of passionate tech experts, we're not just selling products – we're helping you find the
-                        perfect technology solutions for your needs.</p>
+                    <h2>Siapa Kami</h2>
+                    <p>Depo Es Krim adalah pusat penjualan es krim dari berbagai brand ternama yang siap memenuhi kebutuhan Anda. Kami menghadirkan beragam pilihan rasa, kemasan, dan merek es krim terpercaya — semua dalam satu tempat yang mudah diakses.<p> Sejak awal, kami berkomitmen untuk memberikan kemudahan bagi pelanggan dalam mendapatkan produk es krim favorit dengan harga bersaing dan pelayanan yang cepat. Dengan dukungan tim yang profesional, Depo Es Krim menjadi mitra terpercaya bagi toko, kafe, maupun pelanggan individu yang ingin menikmati kelezatan es krim berkualitas.
                 </div>
             </div>
 
             <!-- Stats -->
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-number">50K+</div>
-                    <div class="stat-label">Happy Customers</div>
+                    <div class="stat-number">100</div>
+                    <div class="stat-label">Produk</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Products Available</div>
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Partner</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Brand Partners</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">5</div>
-                    <div class="stat-label">Years Experience</div>
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Tahun Berdiri</div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Values Section -->
-    <div class="values-section">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <h2 style="font-size: 2.5rem; color: var(--text-dark);">Our Core Values</h2>
-                <p style="color: var(--text-light); font-size: 1.1rem;">The principles that guide everything we do</p>
-            </div>
-
-            <div class="values-grid">
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-gem"></i>
-                    </div>
-                    <h3>Quality First</h3>
-                    <p>We only stock products from trusted brands and manufacturers, ensuring every purchase meets the
-                        highest quality standards.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Customer Focus</h3>
-                    <p>Your satisfaction is our priority. We go the extra mile to ensure you have an excellent shopping
-                        experience from start to finish.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Innovation</h3>
-                    <p>We stay ahead of tech trends to bring you the latest innovations and cutting-edge products as soon as
-                        they hit the market.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3>Trust & Integrity</h3>
-                    <p>We build lasting relationships through transparency, honest advice, and reliable after-sales support.
-                    </p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Value for Money</h3>
-                    <p>Competitive pricing without compromising on quality. We negotiate the best deals so you don't have
-                        to.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3>Sustainability</h3>
-                    <p>We're committed to environmental responsibility through eco-friendly packaging and responsible
-                        e-waste management.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Team Section -->
-    <div class="team-section">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <h2 style="font-size: 2.5rem; color: var(--text-dark);">Meet Our Team</h2>
-                <p style="color: var(--text-light); font-size: 1.1rem;">The passionate people behind ElectroShop</p>
-            </div>
-
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="team-info">
-                        <h3>Michael Anderson</h3>
-                        <div class="team-role">Founder & CEO</div>
-                        <p style="color: var(--text-light); margin-bottom: 1rem;">Visionary leader with 15 years in tech
-                            retail</p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-card">
-                    <div class="team-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="team-info">
-                        <h3>Sarah Johnson</h3>
-                        <div class="team-role">Chief Operating Officer</div>
-                        <p style="color: var(--text-light); margin-bottom: 1rem;">Expert in operations and customer service
-                        </p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-card">
-                    <div class="team-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="team-info">
-                        <h3>David Chen</h3>
-                        <div class="team-role">Head of Product</div>
-                        <p style="color: var(--text-light); margin-bottom: 1rem;">Tech enthusiast and product specialist</p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-card">
-                    <div class="team-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="team-info">
-                        <h3>Emily Rodriguez</h3>
-                        <div class="team-role">Customer Success Manager</div>
-                        <p style="color: var(--text-light); margin-bottom: 1rem;">Dedicated to customer satisfaction</p>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- CTA Section -->
-    <div style="background: var(--bg-light); padding: 4rem 2rem; text-align: center;">
-        <div class="container">
-            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Experience the Difference?</h2>
-            <p style="color: var(--text-light); font-size: 1.1rem; margin-bottom: 2rem;">Join thousands of satisfied
-                customers who trust ElectroShop for their tech needs</p>
-            <a href="{{ route('products') }}" class="btn"
-                style="padding: 1rem 2.5rem; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; display: inline-block;">Start
-                Shopping</a>
         </div>
     </div>
 @endsection
