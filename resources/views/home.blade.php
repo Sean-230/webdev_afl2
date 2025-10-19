@@ -12,27 +12,6 @@
             overflow: hidden;
         }
 
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="white" opacity="0.1"/></svg>');
-            animation: float 20s linear infinite;
-        }
-
-        @keyframes float {
-            from {
-                transform: translateY(0);
-            }
-
-            to {
-                transform: translateY(-100px);
-            }
-        }
-
         .hero-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -99,19 +78,6 @@
             font-size: 15rem;
             color: white;
             opacity: 0.9;
-            animation: bounce 3s ease-in-out infinite;
-        }
-
-        @keyframes bounce {
-
-            0%,
-            100% {
-                transform: translateY(0);
-            }
-
-            50% {
-                transform: translateY(-20px);
-            }
         }
 
         /* Categories */
