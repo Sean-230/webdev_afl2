@@ -150,30 +150,23 @@
                     </div>
                 </form>
 
-                <!-- Menu -->
-                <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" 
-                           href="{{ route('home') }}">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('products*') ? 'active' : '' }}" 
-                           href="{{ route('products') }}">Produk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}" 
-                           href="{{ route('about') }}">Tentang</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}" 
-                           href="{{ route('contact') }}">Kontak</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fas fa-shopping-cart fs-5"></i>
-                        </a>
-                    </li>
-                </ul>
+            <ul class="nav-menu">
+                <li>
+                    <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Beranda</a>
+                </li>
+                <li>
+                    <a href="{{ route('products.index') }}" class="{{ request()->routeIs('products*') ? 'active' : '' }}">Produk</a>
+                </li>
+                <li>
+                    <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">Tentang</a>
+                </li>
+                <li>
+                    <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Kontak</a>
+                </li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </nav>
