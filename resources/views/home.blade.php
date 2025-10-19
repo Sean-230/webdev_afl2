@@ -113,16 +113,19 @@
             background: white;
             padding: 2rem;
             border-radius: 12px;
+            border: 1px solid #e5e7eb;
             text-align: center;
             transition: all 0.3s;
             cursor: pointer;
             text-decoration: none;
             color: var(--text-dark);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         .category-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-color);
         }
 
         .category-icon {
@@ -155,15 +158,17 @@
         .product-card {
             background: white;
             border-radius: 12px;
+            border: 1px solid #e5e7eb;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
             transition: all 0.3s;
             position: relative;
         }
 
         .product-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border-color: var(--primary-color);
         }
 
         .product-badge {
