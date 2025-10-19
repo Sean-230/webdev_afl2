@@ -684,28 +684,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Pagination -->
-                    <div style="margin-top: 3rem; text-align: center;">
-                        <div style="display: inline-flex; gap: 0.5rem; align-items: center;">
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer;">
-                                <i class="fas fa-chevron-left"></i>
-                            </button>
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--primary-color); background: var(--primary-color); color: white; border-radius: 6px; cursor: pointer;">1</button>
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer;">2</button>
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer;">3</button>
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer;">4</button>
-                            <button
-                                style="padding: 0.75rem 1rem; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer;">
-                                <i class="fas fa-chevron-right"></i>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
