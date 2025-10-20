@@ -2,7 +2,7 @@
 
 @section('title', 'Produk - Depo Es Krim')
 
-@section('content')
+@push('styles')
 <style>
     /* === HERO SECTION === */
     .hero {
@@ -151,7 +151,9 @@
         }
     }
 </style>
+@endpush
 
+@section('content')
 <!-- Hero Section -->
 <section class="hero">
     <h1>Produk Kami</h1>

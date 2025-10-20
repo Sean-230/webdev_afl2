@@ -2,7 +2,7 @@
 
 @section('title', 'Beranda Depo Es Krim')
 
-@section('content')
+@push('styles')
     <style>
         .hero {
             background: linear-gradient(135deg, #62D2C4 0%, #ECB686 100%);
@@ -340,7 +340,9 @@
             }
         }
     </style>
+@endpush
 
+@section('content')
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
