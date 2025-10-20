@@ -323,6 +323,7 @@
             </div>
 =======
             <div class="collapse navbar-collapse" id="navbarNav">
+<<<<<<< Updated upstream
                 <!-- Search Form
                 <form class="d-flex mx-lg-auto my-3 my-lg-0" role="search" style="max-width: 400px; width: 100%;">
                     <div class="input-group">
@@ -332,6 +333,8 @@
                         <input class="form-control bg-light border-0" type="search" placeholder="Apa yang kamu cari?" aria-label="Search">
                     </div>
                 </form> -->
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
             <ul class="nav-menu">
