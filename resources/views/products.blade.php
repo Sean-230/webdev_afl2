@@ -5,7 +5,7 @@
 @push('styles')
 <style>
     .hero {
-        background: linear-gradient(135deg, #fce7f3, #e0f2fe);
+        background: #ecb686;
         padding: 4rem 1rem;
         text-align: center;
         border-bottom: 1px solid #e5e7eb;
