@@ -316,10 +316,23 @@
                 <i class="fas fa-bars"></i>
             </button>
 
+<<<<<<< Updated upstream
             <div class="search-bar">
                 <i class="fas fa-search"></i>
                 <input type="text" placeholder="Apa yang kamu cari?">
             </div>
+=======
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Search Form
+                <form class="d-flex mx-lg-auto my-3 my-lg-0" role="search" style="max-width: 400px; width: 100%;">
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-0">
+                            <i class="fas fa-search text-secondary"></i>
+                        </span>
+                        <input class="form-control bg-light border-0" type="search" placeholder="Apa yang kamu cari?" aria-label="Search">
+                    </div>
+                </form> -->
+>>>>>>> Stashed changes
 
             <ul class="nav-menu">
                 <li>

@@ -4,7 +4,6 @@
 
 @section('content')
 <style>
-    /* === HERO SECTION === */
     .hero {
         background: linear-gradient(135deg, #fce7f3, #e0f2fe);
         padding: 4rem 1rem;
@@ -152,7 +151,6 @@
     }
 </style>
 
-<!-- Hero Section -->
 <section class="hero">
     <h1>Produk Kami</h1>
     <p>Temukan berbagai varian es krim, bahan baku, dan perlengkapan berkualitas hanya di Depo Es Krim.</p>
