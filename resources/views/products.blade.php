@@ -153,7 +153,6 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
 <section class="hero">
     <h1>Produk Kami</h1>
     <p>Temukan berbagai varian es krim, bahan baku, dan perlengkapan berkualitas hanya di Depo Es Krim.</p>

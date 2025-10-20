@@ -340,9 +340,9 @@
             }
         }
     </style>
-@endpush
+    @endpush
 
-@section('content')
+    @section('content')
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
